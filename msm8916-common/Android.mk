@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter che10 cherry,$(TARGET_DEVICE)),)
+ifneq ($(filter Y550,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhuawei_secure
